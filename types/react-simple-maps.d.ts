@@ -31,7 +31,7 @@ declare module "react-simple-maps" {
     rsmKey: string;
     properties: Record<string, unknown>;
     type: string;
-    id?: string;
+    id?: string | number;
     geometry?: Record<string, unknown>;
   }
 

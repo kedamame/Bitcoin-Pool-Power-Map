@@ -48,7 +48,7 @@ export default function WorldMap({ pools }: { pools: BtcPool[] }) {
 
   const handleMouseEnter = useCallback(
     (geo: Geography, e: React.MouseEvent) => {
-      const numericCode = String(geo.properties["numeric"]).padStart(3, "0");
+      const numericCode = String(geo.id).padStart(3, "0");
       const alpha2 = ISO_NUMERIC_TO_ALPHA2[numericCode];
       if (alpha2 && (countryShareMap[alpha2] ?? 0) > 0) {
         setTooltip({ countryCode: alpha2, x: e.clientX, y: e.clientY });
@@ -74,7 +74,7 @@ export default function WorldMap({ pools }: { pools: BtcPool[] }) {
           <Geographies geography={GEO_URL}>
             {({ geographies }) =>
               geographies.map((geo) => {
-                const numericCode = String(geo.properties["numeric"]).padStart(3, "0");
+                const numericCode = String(geo.id).padStart(3, "0");
                 const alpha2 = ISO_NUMERIC_TO_ALPHA2[numericCode];
                 const share = alpha2 ? (countryShareMap[alpha2] ?? 0) : 0;
                 return (
