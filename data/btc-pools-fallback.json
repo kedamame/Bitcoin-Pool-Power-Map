@@ -1,0 +1,12 @@
+[
+  { "name": "Foundry USA", "share": 31.2, "blocks24h": 45, "hashrateEHs": 5.8, "country": "US", "website": "https://foundrydigital.com" },
+  { "name": "AntPool", "share": 14.5, "blocks24h": 21, "hashrateEHs": 2.7, "country": "CN", "website": "https://antpool.com" },
+  { "name": "F2Pool", "share": 9.2, "blocks24h": 13, "hashrateEHs": 1.7, "country": "CN", "website": "https://f2pool.com" },
+  { "name": "ViaBTC", "share": 8.3, "blocks24h": 12, "hashrateEHs": 1.5, "country": "CN", "website": "https://viabtc.com" },
+  { "name": "Binance Pool", "share": 7.6, "blocks24h": 11, "hashrateEHs": 1.4, "country": "CN", "website": "https://pool.binance.com" },
+  { "name": "SpiderPool", "share": 4.9, "blocks24h": 7, "hashrateEHs": 0.9, "country": "CN", "website": "https://spider.com" },
+  { "name": "MARA Pool", "share": 4.2, "blocks24h": 6, "hashrateEHs": 0.8, "country": "US", "website": "https://marathondh.com" },
+  { "name": "Luxor", "share": 3.5, "blocks24h": 5, "hashrateEHs": 0.65, "country": "US", "website": "https://luxor.tech" },
+  { "name": "Braiins Pool", "share": 2.8, "blocks24h": 4, "hashrateEHs": 0.52, "country": "CZ", "website": "https://braiins.com" },
+  { "name": "BTC.com", "share": 2.1, "blocks24h": 3, "hashrateEHs": 0.39, "country": "CN", "website": "https://btc.com" }
+]

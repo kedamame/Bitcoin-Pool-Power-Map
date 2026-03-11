@@ -1,0 +1,16 @@
+{
+  "title": "Pool Power Map",
+  "subtitle": "Bitcoin Mining Pool World Distribution",
+  "col_rank": "#",
+  "col_pool": "Pool",
+  "col_country": "Country",
+  "col_share": "Share",
+  "col_blocks": "24h Blocks",
+  "col_hashrate": "Hashrate",
+  "col_link": "Website",
+  "cast_button": "Share on Farcaster",
+  "last_updated": "Last updated",
+  "no_data": "Could not fetch data",
+  "loading": "Loading...",
+  "unknown_country": "Unknown"
+}
