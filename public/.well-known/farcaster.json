@@ -1,0 +1,20 @@
+{
+  "frame": {
+    "name": "Bitcoin Pool Power Map",
+    "version": "1",
+    "iconUrl": "https://bitcoin-pool-power-map.vercel.app/icon.png",
+    "homeUrl": "https://bitcoin-pool-power-map.vercel.app",
+    "imageUrl": "https://bitcoin-pool-power-map.vercel.app/image.png",
+    "splashImageUrl": "https://bitcoin-pool-power-map.vercel.app/splash.png",
+    "splashBackgroundColor": "#F7931A",
+    "webhookUrl": "https://bitcoin-pool-power-map.vercel.app/api/webhook",
+    "subtitle": "Bitcoin Pool Power Map",
+    "description": "The Bitcoin Pool Power Map is available for viewing.",
+    "primaryCategory": "entertainment"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjIxMTE4OSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDMxOTk5REZCMzI1NkQzMjNDQTA1N0RkMjBhREI1NkI4RUQ0NTE3NzQifQ",
+    "payload": "eyJkb21haW4iOiJiaXRjb2luLXBvb2wtcG93ZXItbWFwLnZlcmNlbC5hcHAifQ",
+    "signature": "hPlhSxVP1+8f6jjAWTowLSspPPA64gZvTBDIwWnVIe0OLmAIurMgkOPEz83feJiH1Ndq0NlG+NMivM8ZbFqO6Bs="
+  }
+}
