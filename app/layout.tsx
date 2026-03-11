@@ -14,7 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 const APP_URL =
-  process.env.NEXT_PUBLIC_APP_URL ?? "https://pool-power-map.vercel.app";
+  process.env.NEXT_PUBLIC_APP_URL ?? "https://bitcoin-pool-power-map.vercel.app";
+
+const frameEmbed = {
+  version: "next",
+  imageUrl: `${APP_URL}/image.png`,
+  button: {
+    title: "⛏ View Live Map",
+    action: {
+      type: "launch_frame",
+      name: "Pool Power Map",
+      url: APP_URL,
+      splashImageUrl: `${APP_URL}/splash.png`,
+      splashBackgroundColor: "#F7931A",
+    },
+  },
+};
 
 export const metadata: Metadata = {
   title: "Pool Power Map",
@@ -22,14 +37,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pool Power Map",
     description: "Bitcoin Mining Pool World Distribution",
-    images: [`${APP_URL}/og-image.png`],
+    images: [`${APP_URL}/image.png`],
   },
   other: {
-    "fc:frame": "vNext",
-    "fc:frame:image": `${APP_URL}/og-image.png`,
-    "fc:frame:button:1": "🗺 View Live Map",
-    "fc:frame:button:1:action": "link",
-    "fc:frame:button:1:target": APP_URL,
+    "fc:frame": JSON.stringify(frameEmbed),
   },
 };
 
