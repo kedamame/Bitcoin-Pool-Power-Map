@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LangProvider } from "@/components/LangContext";
+import FarcasterReady from "@/components/FarcasterReady";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-gray-100`}
       >
+        <FarcasterReady />
         <LangProvider>{children}</LangProvider>
       </body>
     </html>
